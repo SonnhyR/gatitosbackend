@@ -1,0 +1,18 @@
+
+@Entity
+public class Gatito{
+@Id
+@GeneratedValue(strategy= GenerationType.IDENTITY);
+    private Long id;  
+    private String nombre;  
+    private String raza;  
+    private String color;  
+    private Boolean vacunado;  
+    private Boolean desparacitado;  
+    private Boolean esterilizado;  
+    private String status;  
+    private String ubicacion;  
+    private String telefono;  
+    
+
+}

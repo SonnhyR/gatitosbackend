@@ -1,0 +1,20 @@
+
+
+@RestController
+@RequestMapping("/api/kittens")
+public class GatitoController{
+
+    @AutoWired
+
+
+    public GatitoRepository gatitoRepository;
+
+    @GetMaping
+public List<kittens> getAllkittens(){
+retrn gatitoRepository.findAll();
+
+}
+
+
+
+}

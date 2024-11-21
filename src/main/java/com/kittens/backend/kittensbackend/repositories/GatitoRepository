@@ -1,0 +1,7 @@
+
+
+
+
+public interface GatitoRepository extends JpaRepository<Gatito, Long> {  
+    
+} 
